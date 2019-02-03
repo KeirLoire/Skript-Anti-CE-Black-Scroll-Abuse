@@ -1,0 +1,18 @@
+on rightclick on a anvil:
+    loop items in player's inventory:
+        if name of loop-item is "&8&l&nBlack Scroll":
+            if lore of loop-item contains "&7Have a custom enchantment":
+                message "&cRemove Black Scroll from your inventory."
+                cancel event
+on rightclick on a slightly damaged anvil:
+    loop items in player's inventory:
+        if name of loop-item is "&8&l&nBlack Scroll":
+            if lore of loop-item contains "&7Have a custom enchantment":
+                message "&cRemove Black Scroll from your inventory."
+                cancel event
+on rightclick on a very damaged anvil:
+    loop items in player's inventory:
+        if name of loop-item is "&8&l&nBlack Scroll":
+            if lore of loop-item contains "&7Have a custom enchantment":
+                message "&cRemove Black Scroll from your inventory."
+                cancel event
